@@ -92,7 +92,8 @@ Python packages:
 
 .. code:: shell
 
-    $ brew install automake libtool pkg-config libffi gmp openssl
+    $ brew install automake libtool pkg-config libffi gmp openssl solidity
+    $ brew link solidity
 
 Installation of Pyethapp and it's dependent Python packages via
 `PyPI <https://pypi.python.org/pypi/pyethapp>`__:

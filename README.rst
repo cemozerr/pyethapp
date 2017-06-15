@@ -94,6 +94,8 @@ Python packages:
 
     $ brew install automake libtool pkg-config libffi gmp openssl solidity
     $ brew link solidity
+    $ export LDFLAGS=-L/usr/local/opt/openssl/lib
+    $ export CPPFLAGS=-I/usr/local/opt/openssl/include
 
 Installation of Pyethapp and it's dependent Python packages via
 `PyPI <https://pypi.python.org/pypi/pyethapp>`__:

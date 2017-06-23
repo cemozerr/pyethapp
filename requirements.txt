@@ -18,3 +18,4 @@ pbkdf2
 scrypt
 pexpect
 pytest
+pyelliptic==1.5.7
